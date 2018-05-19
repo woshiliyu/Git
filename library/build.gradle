@@ -42,10 +42,10 @@ task sourcesJar(type: Jar) {
 //    classifier = 'javadoc'
 //    from javadoc.destinationDir
 //}
-artifacts {
-    archives sourcesJar
-//    archives javadocJar
-}
+//artifacts {
+//    archives sourcesJar
+////    archives javadocJar
+//}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
